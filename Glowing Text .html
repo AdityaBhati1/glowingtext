@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glowing Text</title>
+	<style type="text/css">
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #07252d;
+			min-height: 95vh;
+
+		}
+		h1{
+			position: relative;
+			font-size: 8em;
+			font-family: Copperplate Gothic;
+			letter-spacing: 15px;
+			color: #0e3742;
+			-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+			line-height: 0.70em;
+			width: 100%;
+			outline: none;
+			transition: 0.9s;
+			animation: ok 5s infinite;
+			text-align: center;
+		}
+		h1:hover{
+			color: #fff;
+				text-shadow: 0 0 10px #03bcf4,
+				0 0 20px #03bcf4,
+				0 0 40px #03bcf4,
+				0 0 80px #03bcf4,
+				0 0 160px #03bcf4;
+		}
+	</style>
+</head>
+<body>
+<h1>Aditya Hover </h1>
+</body>
+</html>
